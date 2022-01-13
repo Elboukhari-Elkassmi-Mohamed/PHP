@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to top right,#00C1FE, #FAFFC1);
+    height: 100vh;
+}
+
+.card-title1 {
+    border-left: 5px solid #00C1FE;
+    wh
+}
+
+.btn  {
+background-color: #00C1FE;
+}
+.card {
+    border: solid white;
+    border-radius: 10px;
+}
