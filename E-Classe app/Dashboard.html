@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/dashboard.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Dashboard</title>
+
+
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="sidnav vh-100 w-25" id="sidebar-wrapper">
+      <div class="title-heading p-2 ">
+        <h4 class="blorder-star"><b>E-classe</b></h4>
+      </div>
+      <div class="text-center">
+        <img src="./assets/youcode.png " class="rounded-circle w-50">
+        <h5>Admin name</h5>
+        <p style="color: rgba(8, 52, 248, 0.993);">Admin</p>
+  
+      </div>
+      <div class="text-center">
+        <button type="button" class="btn btn-primary btn-ms px-5  "><i class="fal fa-home-lg-alt"></i> Home</button>
+      </div>
+      <div class="text-center ">
+        <ul class=" list-unstyled  ">
+          <a class="list-link" href="#">
+            <li> <i class="fal fa-bookmark py-md-2 "></i> Course</li>
+          </a>
+          <a class="list-link" href="#">
+            <li> <i class=" far fa-graduation-cap  py-md-2 "></i> Students</li>
+          </a>
+          <a class="list-link" href="#">
+            <li> <i class="fal fa-usd-square py-md-2"></i> Payment</li>
+          </a>
+          <a class="list-link" href="#">
+            <li> <i class="fal fa-file-chart-line  py-md-2"></i> Report</li>
+          </a>
+          <a class="list-link" href="#">
+            <li> <i class="fal fa-sliders-v-square py-md-2"></i> Setting</li>
+          </a>
+        </ul>
+        <span> <a class="list-link list-unstyled " href="#">
+            <li> <i class="fal fa-sign-out-alt py-md-5"></i> Log Out</li>
+          </a> </span>
+      </div>
+  
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Main content -->
+    <div class="container-fluid  d-flex flex-column">
+      <nav class="navbar navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand"><i class="fal fa-play-circle"></i></a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <div><i class="far fa-bell mt-2"></i></div>
+          </form>
+        </div>
+      </nav>
+  
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-lg-3 col-6"> <!-- small box -->
+          <div class="small-box p-md-2">
+            <div class="inner">
+              <h3><i class="fas fa-graduation-cap"></i></h3>
+              <p>Students</p>
+              <div class="box-footer text-end"><b>243</b></div>
+            </div>
+          </div>
+        </div>
+        <!-- ./col -->
+
+
+
+        <div class="col-lg-3 col-6">
+          <!-- small box -->
+          <div class="small-boxa  p-md-2 ">
+            <div class="inner">
+              <h3><i class="far fa-bookmark"></i></h3>
+              <p>Course</p>
+              <div class="small-box-footer text-end"><b>13</b></div>
+            </div>
+          </div>
+        </div>
+        <!-- ./col -->
+
+        <div class="col-lg-3 col-6">
+          <div class="small-boxb  p-md-2">
+            <div class="inner">
+              <h3><i class="fas fa-dollar-sign"></i></h3>
+              <p>Payments</p>
+              <div class="small-box-footer text-end"><b>dhs 556,000</b></div>
+            </div>
+          </div>
+        </div>
+        <!-- ./col -->
+
+        <div class="col-lg-3 col-6">
+          <!-- small box -->
+          <div class="small-boxc  p-md-2">
+            <div class="inner">
+              <h3><i class="far fa-user"></i></h3>
+              <p>Users</p>
+              <div class="small-box-footer text-end "><b>3</b></div>
+            </div>
+          </div>
+        </div>
+         <!-- ./col -->
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
