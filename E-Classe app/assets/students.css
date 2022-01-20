@@ -34,6 +34,13 @@
 }
 
 
+.hover a:hover {
+    background-color: #00C1FE;
+    padding-left: 50px;
+    border-top-right-radius: 10px;
+  }
+
+
 .table-data2 {
     border-collapse: separate;
     border-spacing: 0 4px;    

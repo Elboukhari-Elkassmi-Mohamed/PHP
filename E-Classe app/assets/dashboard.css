@@ -11,6 +11,12 @@
  color: black !important;
 }
 
+.hover a:hover {
+    background-color: #00C1FE;
+    padding-left: 50px;
+    border-top-right-radius: 10px;
+  }
+
 
 .blorder-star{
     border-left: 6px solid #00C1FE !important;

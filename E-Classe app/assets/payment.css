@@ -40,6 +40,11 @@
 }
 
 
+.hover a:hover {
+    background-color: #00C1FE;
+    padding-left: 50px;
+    border-top-right-radius: 10px;
+  }
 
 .table-data2.table thead th {
     font-size: 10px;
