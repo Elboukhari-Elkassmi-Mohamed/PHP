@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-In</title>
     <link rel="stylesheet" href="./assets/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/sign-syle.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body>
+<body style="background: linear-gradient(to top right,#00C1FE, #FAFFC1);
+height: 100vh;">
 
 
   <div class="container h-100">
-    <div class="row align-items-center h-100">
-        <div class="col-5 mx-auto">
+    <div class="row h-100">
+        <div class="col-lg-4 col-sm-7 col-8 mx-auto my-auto ">
             <div class="card h-100  justify-content-center">
                 <div>
                   <div class="card-body">
@@ -32,11 +33,11 @@
                           placeholder="Enter your password">
                       </div>
               
-                      <button type="button" class="btn col-md-12 text-center mt-lg-3" ><a class="links" href="Dashboard.html">Sign In</a></button>
-                      <p class="card-subtitle m-2 text-muted text-center">Forgot your password? <a href="#" style="color: #00C1FE;">Reset Password</a></p>
+                      <button  type="button" class="btn col-12 text-center mt-3 nonuderline" ><a  href="Dashboard.php">Sign In</a></button>
+                      <p class="card-subtitle m-2 text-muted text-center">Forgot your password? <a href="#"  style="color: #00C1FE;">Reset Password</a></p>
 
 
-                             </form>
+                       </form>
                   </div>
                 </div>
             </div>
