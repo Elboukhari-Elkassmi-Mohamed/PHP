@@ -4,6 +4,10 @@
     
 }
 
+i{
+    font-size: 1.25rem;
+}
+
 .btn  {
 background-color: #00C1FE;
 }
@@ -35,8 +39,7 @@ background-color: #00C1FE;
    
    .hover a:hover {
        background-color: #00C1FE;
-       padding-left: 50px;
-       border-top-right-radius: 10px;
+       /* padding-left: 50px; */
      }
    
    .blorder-star{
@@ -92,7 +95,7 @@ background-color: #00C1FE;
     font-weight: 600PX;
     vertical-align: center;
     text-align:center;
-    padding-right: 10px;
+    padding-right: 60px;
 }
 
 
@@ -102,9 +105,12 @@ background-color: #00C1FE;
     font-size: 15px;
     }
     
-    .table-data2.table thead th:first-child {
-        padding-right: 0;
+    .table-line:nth-child(odd)  {
+        /* padding-right: 0; */
+        background-color:#E5E5E5;
     }
+
+    
     
     
     .table-data2.table tbody {

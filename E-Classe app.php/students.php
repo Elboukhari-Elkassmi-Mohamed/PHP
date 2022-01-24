@@ -68,7 +68,7 @@
         <?php    foreach ($array as $data) :
                 
                 ?>
-              <tr class="">
+              <tr>
                 <td> <img src="./assets/students.png" width="40" alt="wait for it"></td>
                 <td> <?php echo $data["Name"]; ?></td>
                 <td> <?php echo $data["Email"]; ?> </td>
