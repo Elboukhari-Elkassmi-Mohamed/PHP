@@ -1,0 +1,41 @@
+[
+    {
+        "Name" : "karthi", 
+        "PAYMENT SCHEDULE" : "First", 
+        "Bill Number" : "5442343", 
+        "AMOUNT PAID" : "DHS 100,000", 
+        "BALANCE AMOUNT" : "DHS 500,000", 
+        "DATE" : "08-Dec,2022"
+    },
+
+
+    {
+        "Name" : "youssef", 
+        "PAYMENT SCHEDULE" : "Second", 
+        "Bill Number" : "3142343", 
+        "AMOUNT PAID": "DHS 100,000", 
+        "BALANCE AMOUNT" : "DHS 500,000", 
+        "DATE" : "09-Dec,2020"
+    },
+
+    {
+        "Name" : "Rachid", 
+        "PAYMENT SCHEDULE" : "Third", 
+        "Bill Number" : "2342343", 
+        "AMOUNT PAID" : "DHS 100,000", 
+        "BALANCE AMOUNT" : "DHS 500,000", 
+        "DATE" : "10-Dec,2021"
+    },
+
+    {
+        "Name" : "Fatima", 
+        "PAYMENT SCHEDULE" : "Fourth",
+        "Bill Number" : "4342343", 
+        "AMOUNT PAID" : "DHS 100,000", 
+        "BALANCE AMOUNT" : "DHS 500,000", 
+        "DATE" : "11-Dec,2021"
+    
+    }
+
+    
+]

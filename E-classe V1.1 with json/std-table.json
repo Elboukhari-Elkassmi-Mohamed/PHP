@@ -1,0 +1,63 @@
+ [
+    {
+        "Name" : "username1",
+        "Email" : "user1@email.com", 
+        "PHONE" : "06730547734",
+        "ENROLL NUMBER" : "12345673477760", 
+        "DATE OF ADMISSION" : "08-Dec,2021"
+    },
+
+
+    {
+       "Name" : "username2", 
+       "Email" : "user1@email.com", 
+       "PHONE" : "0673054777", 
+       "ENROLL NUMBER" : "12345673760", 
+       "DATE OF ADMISSION" : "09-Dec,2021"
+    },
+
+
+{
+   "Name" : "username3", 
+   "Email" :"user1@email.com", 
+   "PHONE" : "0673054777", 
+   "ENROLL NUMBER" : "123456577760", 
+   "DATE OF ADMISSION" : "10-Dec,2021"
+
+},
+
+    {
+        "Name" : "username4", 
+        "Email": "user1@email.com", 
+        "PHONE" : "0673054777", 
+        "ENROLL NUMBER" : "123456747760", 
+        "DATE OF ADMISSION" : "11-Dec,2021"
+
+    },
+
+    {
+        "Name" : "username5", 
+        "Email" : "user1@email.com", 
+        "PHONE" : "0673054777", 
+        "ENROLL NUMBER" : "123456730760",
+        "DATE OF ADMISSION" : "12-Dec,2021"
+    },
+
+    {
+        "Name" : "username6", 
+        "Email" : "user1@email.com", 
+        "PHONE" : "0673054777", 
+        "ENROLL NUMBER" : "12345734760", 
+        "DATE OF ADMISSION" : "13-Dec,2021"
+    },
+
+
+    {
+        "Name" : "username7", 
+        "Email" : "user1@email.com", 
+        "PHONE" : "0673054777", 
+        "ENROLL NUMBER" : "12345734760", 
+        "DATE OF ADMISSION" : "13-Dec,2021"
+    }
+
+]
