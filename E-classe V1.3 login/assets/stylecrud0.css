@@ -1,0 +1,123 @@
+/* page sign_in */
+#bodyindex {
+  background: linear-gradient(to top right, #00c1fe, #faffc1);
+  height: 100vh;
+}
+
+.card-title1 {
+  border-left: 5px solid #00c1fe;
+}
+
+i {
+  font-size: 1.25rem;
+}
+
+.btn {
+  background-color: #00c1fe;
+}
+.nonuderline a {
+  color: white;
+  text-decoration: none !important;
+}
+.card {
+  border-radius: 10px;
+}
+
+/* page Dashboard */
+
+* {
+  text-decoration: none !important;
+}
+
+/* sidbar css a tous les pages */
+
+#sidebar-color {
+  background-color: #faffc1;
+}
+
+.list-link {
+  color: black !important;
+}
+ 
+li:hover, .hover a:hover {
+  border-radius: 5%;
+  background-color: #00c1fe;
+
+}
+
+.list-unstyled {
+  width: 100px;
+  list-style: none;
+}
+
+.blorder-star {
+  border-left: 6px solid #00c1fe !important;
+}
+/* sidbar css end */
+
+.small-box {
+  border-radius: 8px;
+  background-color: #f0f9ff;
+}
+
+.small-boxa {
+  border-radius: 8px;
+  background-color: #fef6fb;
+}
+
+.small-boxb {
+  border-radius: 8px;
+  background-color: #fefbec;
+}
+
+.small-boxc {
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, #00c1fe, #faffc1);
+  background-color: #fefbec;
+}
+
+/* css for bouth page students and payment */
+.font {
+  color: #00c1fe;
+}
+
+.header-one {
+  border-bottom: solid rgba(0, 0, 0, 0.329);
+}
+
+.table-data2.table thead th {
+  font-size: 10px;
+  color: rgb(94, 92, 92);
+  text-transform: uppercase;
+  border: none;
+  font-weight: 600px;
+  vertical-align: center;
+  text-align: center;
+  padding-right: 60px;
+}
+
+.table-data2.table tbody td {
+  align-items: center;
+  font-size: 15px;
+}
+
+.table-line:nth-child(odd) {
+  /* padding-right: 0; */
+  background-color: #e5e5e5;
+}
+
+.table-data2.table tbody {
+  background: rgb(255, 255, 255);
+}
+
+.table-data2 {
+  border-collapse: separate;
+  border-spacing: 0 4px;
+}
+
+/* __________________end ________________ */
+
+.btn {
+  background-color: #00c1fe;
+  color: white;
+}
