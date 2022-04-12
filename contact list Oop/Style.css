@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
+
+.nav_color  {
+    background-color: #1C658C !important;
+}
+
+.bd_content{
+    padding:  100px  ;
+    background-color: #DFF6FF;
+}
+
+.btn{
+    background-color: #398AB9!important;
+}
+
+.table {
+    background-color: #D8D2CB!important;
+}
+
+/* style pour erreur placeholder small without click */
+.input-control small {
+    color: #e74c3c;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  /* style pour erreur placeholder small on click */
+  
+  .input-control.error small {
+    visibility: visible;
+  }
+  
+  
+  .input-control.success input {
+    background-color: darkseagreen!important;
+    visibility: visible;
+  }
