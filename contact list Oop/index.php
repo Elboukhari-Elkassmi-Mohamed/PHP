@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light nav_color mb-3 ">
           <div class="container">
-            <a class="navbar-brand" href="login.html">
+            <a class="navbar-brand" href="#">
               <h5 class="text-white">Contact List</h5>
             </a>
             <button
@@ -34,7 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html"
+                <a class="nav-link active" aria-current="page" href="login.php"
                   ><b>Login</b></a>
               </li>             
             </ul>
@@ -42,45 +42,27 @@
           </div>
         </nav>
       </header>
+    
+<div class="container  bd_content">
+    <h1><b>Hello!</b></h1>
+    <p><b><a href="sign_up.php">Sing up</a> to start creating your list</b></p>
+    <p>Already have an account? <a href="login.php">Login here.</a></p>
+    
+</div>
 
 
-      <section>
-        <div class="mask d-flex align-items-center ">
-          <div class="container ">
-            <div class="row d-flex justify-content-center align-items-center ">
-              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                <div class="card" style="border-radius: 15px;">
-                  <div class="card-body ">
-                    <h3 class="text-uppercase text-center m-4">Login</h3>
-      
-                    <form>
-      
-                      <div class="form-outline mb-4">
-                        <label class="form-label" for="">Username</label>
-                        <input type="text" id="" class="form-control form-control"placeholder="Username" />
-                        <smal id="username"></smal>
-                      </div>
-      
-      
-                      <div class="form-outline mb-4">
-                        <label class="form-label" for="">Password</label>
-                        <input type="password" id="" class="form-control form-control" placeholder="Enter Password"/>
 
-                      </div>
-                           
-                      <div class="d-flex justify-content-center">
-                        <button type="button" class="btn   btn-lg col-8 mt-5 mb-5">Login</button>
-                      </div>
-            
-                    </form>
-      
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

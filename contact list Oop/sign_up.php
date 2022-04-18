@@ -10,13 +10,14 @@
 
     <title>index</title>
 
+
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light nav_color mb-3 ">
           <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="login.html">
               <h5 class="text-white">Contact List</h5>
             </a>
             <button
@@ -43,28 +44,48 @@
         </nav>
       </header>
     
-<div class="container  bd_content">
-    <h1><b>Hello!</b></h1>
-    <p><b><a href="sign_up.htm">Sing up</a> to start creating your list</b></p>
-    <p>Already have an account? <a href="login.html">Login here.</a></p>
-    
-</div>
+
+      <section>
+        <div class="mask d-flex align-items-center ">
+          <div class="container ">
+            <div class="row d-flex justify-content-center align-items-center ">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="card" style="border-radius: 15px;">
+                  <div class="card-body ">
+                    <h3 class="text-uppercase text-center">Sign_Up</h3>
+      
+          
+            <form class="mt-5" id="form" action="include/singupPro.php"  method="POST" onsubmit= "return validation()" >
+              <div class="input-control">
+                <label> Username</label>
+                <input type="text" id="username" name="username" class="form-control" value="" />
+                <small>Placeholder pour l'erreur</small>
+              </div>
+
+            
+              <div class="input-control">
+                <label>Password</label>
+                <input type="password" id="password" name="password" class="form-control" value="" />
+                <small>Placeholder pour l'erreur</small>
+              </div>
+
+              <div class="input-control">
+                <label>Password</label>
+                <input type="password" id="passwordTwo" name="password" class="form-control" value="" />
+                <small>Placeholder pour l'erreur</small>
+              </div>
 
 
 
+              <a> <button type="submit" name="submit" class="btn col-12 text-center mt-3 nonuderline">Sing Up</button></a>
 
-
-
-
-
-
-
-
-
-
-
-
-
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -80,5 +101,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="script.js"></script>
+  
 </body>
 </html>

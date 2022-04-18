@@ -1,3 +1,8 @@
+<?php     session_start(); 
+
+if(isset($_SESSION["id"])){ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,16 +39,17 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="profil.html"
-                    ><b>Name</b></a>
+                  <a class="nav-link active" aria-current="page" href="profil.php"
+                    ><b><?php echo $_SESSION["username"] ;?></b></a>
                 </li>     
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="contacts.html"
+                  <a class="nav-link active" aria-current="page" href="contacts.php"
                    ><b>Contacts</b> </a>
                 </li>      
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html"
+                <a class="nav-link active" aria-current="page"
+                 href="include/logOut.php"
                   ><b>Logout</b> </a>
               </li>       
             </ul>
@@ -57,7 +63,7 @@
 
 <section>
     <div>
-        <h1 class="p-3">Welcom, Name</h1>
+        <h1 class="p-3">Welcome, <?php echo $_SESSION["username"] ;?></h1>
         <h2 class="ms-2">Your profile:</h2>
 
 
@@ -71,17 +77,17 @@
             <tbody>
               <tr>
                 <th>Username:</th>
-                <td>Mark</td>
+                <td><?php echo $_SESSION["username"] ;?> </td>
                 
               </tr>
               <tr>
                 <th>Sign_Up date:</th>
-                <td>Jacob</td>
+                <td><?php echo $_SESSION["date"] ;?></td>
                
               </tr>
               <tr>
                 <th >Last login:</th>
-                <td >Larry the Bird</td>
+                <td ><?php echo $_SESSION["last_login"] ;?></td>
               </tr>
             </tbody>
           </table>
@@ -117,3 +123,5 @@
 
 </body>
 </html>
+
+<?php  ;} ?>

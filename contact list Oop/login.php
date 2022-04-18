@@ -10,7 +10,6 @@
 
     <title>index</title>
 
-
 </head>
 
 <body>
@@ -35,7 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a class="nav-link active" aria-current="page" href="login.html"
                   ><b>Login</b></a>
               </li>             
             </ul>
@@ -43,7 +42,7 @@
           </div>
         </nav>
       </header>
-    
+
 
       <section>
         <div class="mask d-flex align-items-center ">
@@ -52,33 +51,29 @@
               <div class="col-12 col-md-9 col-lg-7 col-xl-6">
                 <div class="card" style="border-radius: 15px;">
                   <div class="card-body ">
-                    <h3 class="text-uppercase text-center">Sign_Up</h3>
+                    <h3 class="text-uppercase text-center m-4">Login</h3>
       
-           
-            <form class="mt-5" id="form" action="login.html" onsubmit="return validation();" method="POST">
-              <div class="input-control">
-                <label> Username</label>
-                <input type="text" id="username" name="Name" class="form-control" value="" />
-                <small>Placeholder pour l'erreur</small>
-              </div>
+                    <form   action="include/singinPro.php"  method="POST">
+      
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="">Username</label>
+                        <input type="text" id="" name="username" class="form-control form-control"placeholder="Username" />
+                        <smal id="username"></smal>
+                      </div>
+      
+      
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="">Password</label>
+                        <input type="password" id=""  name="password" class="form-control form-control" placeholder="Enter Password"/>
 
+                      </div>
+                           
+                      <div class="d-flex justify-content-center">
+                        <button type="submit" name="submit"class="btn   btn-lg col-8 mt-5 mb-5">Login</button>
+                      </div>
             
-              <div class="input-control">
-                <label>Password</label>
-                <input type="password" id="password" name="Password" class="form-control" value="" />
-                <small>Placeholder pour l'erreur</small>
-              </div>
-
-              <div class="input-control">
-                <label>Password</label>
-                <input type="password" id="passwordTwo" name="Password" class="form-control" value="" />
-                <small>Placeholder pour l'erreur</small>
-              </div>
-
-
-
-              <a> <button type="submit" name="sing_Up" class="btn col-12 text-center mt-3 nonuderline">Sing Up</button></a>
-
+                    </form>
+      
                   </div>
                 </div>
               </div>
@@ -86,6 +81,8 @@
           </div>
         </div>
       </section>
+
+
 
 
 
@@ -101,7 +98,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="script.js"></script>
-  
 </body>
 </html>

@@ -1,3 +1,8 @@
+<?php     session_start(); 
+
+
+if(isset($_SESSION["id"])){ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,16 +41,17 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="profil.html"
-                    ><b>Name</b></a>
+                  <a class="nav-link active" aria-current="page" href="profil.php"
+                    ><b><?php echo $_SESSION["username"] ;?></b></a>
                 </li>     
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="contacts.html"
+                  <a class="nav-link active" aria-current="page" href="contacts.php"
                    ><b>Contacts</b> </a>
                 </li>      
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html"
+                <a class="nav-link active" aria-current="page" href="include/logOut.php"
+
                   ><b>Logout</b> </a>
               </li>       
             </ul>
@@ -62,7 +68,7 @@
         <button type="button" class=" btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Contact</button>
 
         <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<form class="modal fade"        action="include/crud.php"  method="POST" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -73,32 +79,32 @@
 
         <div class="form-outline mb-4">
           <label class="form-label" for="">Full name </label>
-          <input type="text" id="" class="form-control form-control"placeholder="Enter Your Full name" />
+          <input type="text" id="" name="name" class="form-control form-control"placeholder="Enter Your Full name" />
         </div>
 
         <div class="form-outline mb-4">
           <label class="form-label" for="">Email </label>
-          <input type="text" id="" class="form-control form-control"placeholder="Enter Email" />
+          <input type="text" id=""  name="email" class="form-control form-control"placeholder="Enter Email" />
         </div>
 
         <div class="form-outline mb-4">
           <label class="form-label" for="">phone Number	</label>
-          <input type="text" id="" class="form-control form-control"placeholder="Enter Number" />
+          <input type="text" id="" name="phone" class="form-control form-control"placeholder="Enter Number" />
         </div>
 
         <div class="form-outline mb-4">
           <label class="form-label" for="">Adresse</label>
-          <input type="text" id="" class="form-control form-control"placeholder="Adresse" />
+          <input type="text" id="" name="adresse" class="form-control form-control"placeholder="Adresse" />
         </div>
 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Add Contact</button>
+        <button type="submit"  name="add"  class="btn btn-primary">Add Contact</button>
       </div>
     </div>
   </div>
-</div>
+</form>
 
     </div>
 </div>
@@ -115,15 +121,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td >elboukhari</td>
-            <td>mohamed@live.fr</td>
-            <td>0698606469</td>
-            <td>1515 MAGHIB JADID MAROC</td>
-            <td>
-              <a data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-pen"></i></a>              
-              <br><a><i class="fas fa-trash"></i></a>
-          </tr>
+         
           <tr>
             <td >elboukhari </td>
             <td>mohamed@live.fr</td>
@@ -155,3 +153,5 @@
 
 </body>
 </html>
+
+<?php ;} ?>

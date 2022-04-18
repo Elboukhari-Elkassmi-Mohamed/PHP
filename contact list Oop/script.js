@@ -19,12 +19,6 @@ function validationReussi(input) {
 
 function validation() {
 
-	//  addEventLister
-	// form.addEventListener('submit', e => {
-	// 	e.preventDefault();
-	// 	validation();
-	// });
-
     // j'ai storer dans usernameValue varaible la valeur de l'input username sans l'espace à l'aide de la fonction trim()
     const usernameValue = username.value.trim();
 	const passwordValue = password.value.trim();
