@@ -16,7 +16,7 @@ include "../classes/singupVal.php";
 $singup = new singupVal ($username,$password);
 
   // running error handling and user sing up
- 
+  
 $singup->singupUser();
 
 

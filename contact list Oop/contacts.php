@@ -1,4 +1,9 @@
-<?php     session_start(); 
+<?php   
+  
+include "classes/Dbh.php";
+include "classes/contact.php";
+$data = new contact();
+$all  = $data->select();  
 
 
 if(isset($_SESSION["id"])){ ?>
@@ -9,7 +14,7 @@ if(isset($_SESSION["id"])){ ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Stylee.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
      rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -68,7 +73,7 @@ if(isset($_SESSION["id"])){ ?>
         <button type="button" class=" btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Contact</button>
 
         <!-- Modal -->
-<form class="modal fade"        action="include/crud.php"  method="POST" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<form class="modal fade"  action="include/crud.php"  method="POST" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -121,17 +126,20 @@ if(isset($_SESSION["id"])){ ?>
           </tr>
         </thead>
         <tbody>
-         
-          <tr>
-            <td >elboukhari </td>
-            <td>mohamed@live.fr</td>
-            <td>0698606469</td>
-            <td>1515 MAGHIB JADID MAROC</td>
-            <td>
-              <a data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-pen"></i></a>              
-              <br><a><i class="fas fa-trash"></i></a>
-            </td>
-          </tr>
+        <?php   
+       foreach ($all as $row): ?>  
+            <tr>
+              <td><?php echo $row['name']?> </td>
+              <td><?php echo $row['email']?> </td>
+              <td><?php echo $row['phone']?> </td>
+              <td><?php echo $row['adresse']?> </td>
+              <td>
+                  <a href="update.php?edit=<?php echo $row['contact_id'];?>"><i class="fas fa-pen "></i></a>             
+                  <a href="include/crud.php?delet=<?php echo $row['contact_id']; ?>"><i class="fas fa-trash "></i></a>
+              </td>
+              </tr>
+      
+           <?php endforeach;  ?>
         </tbody>
       </table>
 </section>

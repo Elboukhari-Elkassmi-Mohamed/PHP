@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Stylee.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
      rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -35,7 +35,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="login.php"
-                  ><b>Login</b></a>
+                  ><b style="color:#F0A500;">Login</b></a>
               </li>             
             </ul>
 
@@ -44,9 +44,9 @@
       </header>
     
 <div class="container  bd_content">
-    <h1><b>Hello!</b></h1>
-    <p><b><a href="sign_up.php">Sing up</a> to start creating your list</b></p>
-    <p>Already have an account? <a href="login.php">Login here.</a></p>
+    <h1 style="color:#F0A500;"><b>Hello!</b></h1>
+    <p style="color:#F0A500;"><b><a href="sign_up.php">Sing up</a> to start creating your list</b></p>
+    <p style="color:#F0A500;" >Already have an account? <a href="login.php">Login here.</a></p>
     
 </div>
 

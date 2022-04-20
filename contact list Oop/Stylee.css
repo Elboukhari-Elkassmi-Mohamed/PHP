@@ -5,16 +5,24 @@
 }
 
 .nav_color  {
-    background-color: #1C658C !important;
+    background-color: #000413bf !important;
 }
+
+b {
+    color: #ffff!important;
+}
+
 
 .bd_content{
     padding:  100px  ;
-    background-color: #DFF6FF;
+    /* background-color: #DFF6FF; */
+    background-image: url("img/img4.jpg")!important;
+    background-size: cover;
 }
 
-.btn{
-    background-color: #398AB9!important;
+.btn {
+    background-color: #F0A500!important;
+    color: #ffff!important;
 }
 
 .table {
